@@ -34,8 +34,6 @@ body {
 	font-weight: 200;
 }
 
-/** Section 2 - Home page*/
-
 
 
 /** Section 3 - Homepage Styles **/
@@ -49,6 +47,10 @@ body {
 	min-height: 100%;
 }
 
+#bodySection p{
+	margin: 20px 50px 0px 50px;
+}
+
 .homepage-body-logo{	
 	height: 400px;
 	margin-top: 50px;
@@ -57,4 +59,10 @@ body {
 	margin-bottom: 50px;
 	border: 1px solid rgb(119, 119, 119);
 	text-align: center;
+}
+
+#homescreen-portrait{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

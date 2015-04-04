@@ -3,9 +3,46 @@
 
 <head>
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+<!-- nav menu-->
+<section id="navSection">
+	<nav role="navigation" class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand brand"></a>
+        </div>
+        <div id="navbarCollapse" class="nav-menu-font collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li ><a href="#">About Us</a></li>
+                 <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">People <b class="caret"></b></a>
+                    <ul id="peopleDropdownMenu" role="menu" class="dropdown-menu">
+                       <li><a href="#" ng-repeat="person in people">{{person.name}}</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">  
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+</section>
+
+
 	<!-- Blank full screen canvas -->
  <canvas id="myCanvas"></canvas>
 

@@ -7,6 +7,8 @@ CSS Style Sections
 2. Navigation
 3. Homepage
 4. Homily
+5. About Us
+6. Donate
 **/
 
 
@@ -73,6 +75,7 @@ p{
 	font-weight: 100;
 }
 
+
 .homepage-body-logo{	
 	height: 400px;
 	margin-top: 50px;
@@ -104,6 +107,10 @@ p{
 }
 
 /** Section 4 - Homily Styles **/
+#homilyHeader {
+	max-width: 800px;
+    margin: 20px auto 0px auto;
+}
 
 #homilyHeaderImage {
 	display: block;
@@ -112,4 +119,22 @@ p{
     width: 100%;
     max-width: 800px;
     padding: 0px 10px 0px 10px
+}
+
+/** Section 5 - About Us Styles **/
+#aboutUsLogo {
+	display: block;
+    margin: 10px auto 10px auto;
+    padding: 0px 10px 0px 10px;
+    width: 100%;
+    max-width: 275px
+}
+
+/** Section 5 - About Us Styles **/
+#donateSection {
+	max-width: 347px;
+    margin: 0px auto 0px auto;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }

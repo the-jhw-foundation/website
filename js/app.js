@@ -27,6 +27,9 @@
             })      
             .when('/youngprofessionalboard', {
                 templateUrl : '/views/youngprofessionalboard.html',
+            })
+            .when('/contact', {
+                templateUrl : '/views/youngprofessionalboard.html',
             })           
     });
 
@@ -46,6 +49,14 @@
 			}],
 			*/
 			controllerAs: 'navItems'
+		};
+	});
+
+	//Contact Us Directive
+	app.directive('contactUs', function (){
+		return {
+			restrict: 'E',
+			templateUrl: '/views/contactus.html'
 		};
 	});
 

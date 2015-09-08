@@ -1,0 +1,26 @@
+#crab-grab-2011 {
+	width: 100%;
+    max-width: 547px;
+}
+
+#back-button {
+    width: 12%;
+    height: 100%;
+    float: left;
+    background-color: lightgray;
+}
+
+#forward-button {
+    width: 12%;
+    height: 100%;
+    float: left;
+    background-color: lightgray;
+}
+
+/*2012 Oyster Roast*/
+
+#or-01-2012 {
+	float:left;
+	width: 76%;
+    max-width: 610px;
+}

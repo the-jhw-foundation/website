@@ -94,6 +94,71 @@ p{
     max-width: 334px;
 }
 
+.action-item {
+	height: 150px;
+	width: 150px;
+	background-color: orange;
+	border-radius: 10px;
+	margin: 20px;
+	float: left;
+	position:relative;
+	color: white;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.action-text{
+	float: left;
+    height: auto;
+    width: 170;
+    margin: 0px 10px 10px 0px;
+    text-align: center;
+}
+
+.action-item-container {
+	float:left;
+	width: 190px
+}
+
+#homepage-action-panel{
+	overflow: auto;
+	max-width: 610px;
+	margin: 0px auto 0px auto;
+}
+
+#donate-action-image {
+	padding-left:25px;
+}
+#get-involved-action-image {
+	padding-left:20px;
+}
+
+#mission-action-image {
+	padding-left:24px;
+}
+
+
+#donate-text {
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+}
+
+#get-involved-text {
+	position:absolute;
+	bottom: 10px;
+	left: 3px;
+	width:144px;
+}
+
+#mission-text {
+	position:absolute;
+	bottom: 10px;
+	left: 6px;
+	width:138px;
+}
+
+
 #footer {
 	width:100%;
 	border-top: 1px solid;
@@ -153,3 +218,17 @@ p{
 .bannerDisplay{
 	display: inline;
 }
+
+#donate-form {
+	margin: 0px auto 0px auto;
+    width: 147px;
+}
+
+@media screen and (max-width: 610px) {
+
+    #homepage-action-panel {
+    	max-width: 190px;
+    }
+
+}
+

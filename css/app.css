@@ -252,5 +252,10 @@ a:hover{
 	#donateSection{
 		height: 160px
 	}
+
+@media screen and (max-width: 380px) {
+	#donateSection{
+		    height: 210px;
+	}
 }
 

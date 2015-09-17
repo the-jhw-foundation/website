@@ -197,11 +197,21 @@ p{
 
 /** Section 6 - Donate **/
 #donateSection {
-	width:100%;
-	height: 100px;
-	background: url(../img/jhw-oyster-banner-background.png) no-repeat;
-	margin-top:-20px;
-	border: none;
+    width: 100%;
+    height: 100px;
+    background: url(../img/oyster-roast-banner.png) repeat;
+    margin-top: -20px;
+    border: 7px solid orangered;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: orangered;
+    line-height: 1
+}
+
+a:hover{
+    text-decoration: none;
 }
 #donateBanner {
 	/*max-width: 347px;*/
@@ -224,11 +234,23 @@ p{
     width: 147px;
 }
 
+@media screen and (max-width: 883px) {
+	#donateSection{
+		height: 125px
+	}
+}
+
 @media screen and (max-width: 610px) {
 
     #homepage-action-panel {
     	max-width: 190px;
     }
 
+}
+
+@media screen and (max-width: 517px) {
+	#donateSection{
+		height: 160px
+	}
 }
 

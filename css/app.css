@@ -255,7 +255,12 @@ a:hover{
 
 @media screen and (max-width: 380px) {
 	#donateSection{
-		    height: 210px;
+		height: 210px;
 	}
+
+@media screen and (max-width: 303px) {
+	#donateSection{
+		height: 245px;;
+	}	
 }
 

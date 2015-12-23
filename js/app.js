@@ -16,6 +16,9 @@
             .when('/projects', {
                 templateUrl : '/views/projects.html',
             })
+            .when('/news', {
+                templateUrl : '/views/news.html',
+            })
             .when('/aboutus', {
                 templateUrl : '/views/aboutus.html',
             })            
